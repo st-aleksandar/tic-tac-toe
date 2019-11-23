@@ -1,0 +1,21 @@
+.Score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.Score-inner {
+    flex: 0 0 1;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    color: #333333;
+    padding: 0 10px;
+}
+.Score-inner svg {
+    width: 20px;
+    height: 20px;
+}

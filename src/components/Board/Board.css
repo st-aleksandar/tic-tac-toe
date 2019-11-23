@@ -1,0 +1,45 @@
+.Table {
+    border-spacing: 0;
+}
+
+.Row {}
+
+.Row td {
+    width: 100px;
+    height: 100px;
+    box-sizing:content-box;
+    cursor: pointer;
+}
+
+.Row-top-left {
+    border-bottom: 8px solid #30BDAC;
+    border-right: 8px solid #30BDAC;
+}
+.Row-top-center {
+    border-bottom: 8px solid #30BDAC;
+}
+.Row-top-right {
+    border-bottom: 8px solid #30BDAC;
+    border-left: 8px solid #30BDAC;
+}
+
+.Row-center-left {
+    border-bottom: 8px solid #30BDAC;
+    border-right: 8px solid #30BDAC;
+}
+.Row-center-center {
+    border-bottom: 8px solid #30BDAC;
+}
+.Row-center-right {
+    border-bottom: 8px solid #30BDAC;
+    border-left: 8px solid #30BDAC;
+}
+
+
+.Row-bottom-left {
+    border-right: 8px solid #30BDAC;
+}
+.Row-bottom-center {}
+.Row-bottom-right {
+    border-left: 8px solid #30BDAC;
+}
